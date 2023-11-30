@@ -18,6 +18,7 @@ h3{ /* title */
 font-family: "niveau-grotesk", sans-serif;
 font-weight: medium;
 font-size: 1.1rem;
+margin-bottom: 0;
 }
 
 h4{ /* contact text */
@@ -25,6 +26,7 @@ font-family: "niveau-grotesk", sans-serif;
 font-weight:normal;
 font-size: 1rem;
 line-height: 2;
+margin-bottom: 10px
 }
 
 h5{ /* button text */
