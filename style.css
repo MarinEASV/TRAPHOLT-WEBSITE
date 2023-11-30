@@ -1,0 +1,41 @@
+h1{ /* large heading */
+font-family: "niveau-grotesk", sans-serif;
+font-weight: bold;
+font-size: 2.8rem;
+letter-spacing: -3%;
+line-height: 2.8;
+}
+ 
+h2{ /* medium heading */
+font-family: "niveau-grotesk", sans-serif;
+font-weight: medium;
+font-size: 1.9rem;
+letter-spacing: -3%;
+line-height: 1.9;
+}
+
+h3{ /* title */
+font-family: "niveau-grotesk", sans-serif;
+font-weight: medium;
+font-size: 1.1rem;
+}
+
+h4{ /* contact text */
+font-family: "niveau-grotesk", sans-serif;
+font-weight:normal;
+font-size: 1rem;
+line-height: 2;
+}
+
+h5{ /* button text */
+font-family: "niveau-grotesk", sans-serif;
+font-weight: bold;
+font-size: 1.2rem;
+letter-spacing: 5%;
+}
+
+p{ /* body text */
+font-family: "niveau-grotesk", sans-serif;
+font-weight: light;
+font-size: .8rem;
+}
