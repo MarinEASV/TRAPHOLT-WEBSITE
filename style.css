@@ -41,3 +41,25 @@ font-family: "niveau-grotesk", sans-serif;
 font-weight: light;
 font-size: .8rem;
 }
+
+.exhibitionhone {
+    line-height: 1;
+} 
+
+.btn-booktour {
+    background-color: #EF4269;
+    border-radius: 0;
+    border-color: #EF4269;
+}
+
+.exhibitionhtwo {
+    background-color: #CACACA;
+}
+
+.section.white {
+    background-color: #EF4269;
+}
+
+.silverbackground {
+    background-color: #CACACA;
+}
