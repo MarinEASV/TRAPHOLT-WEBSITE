@@ -1,0 +1,152 @@
+.navbar{
+font-family: "niveau-grotesk", sans-serif;
+font-weight: 500;
+font-style: normal;
+
+}  
+
+h1{ /* large heading */
+font-family: "niveau-grotesk", sans-serif;
+font-weight: bold;
+font-size: 2.8rem;
+letter-spacing: -3%;
+line-height: 2.8;
+margin: 50px 0 0 0;
+}
+ 
+h2{ /* medium heading */
+font-family: "niveau-grotesk", sans-serif;
+font-weight: medium;
+font-size: 1.9rem;
+letter-spacing: -3%;
+line-height: 1.9;
+}
+
+h3{ /* title */
+font-family: "niveau-grotesk", sans-serif;
+font-weight: medium;
+font-size: 1.3rem;
+margin-bottom: 10px;
+}
+
+h4{ /* contact text */
+font-family: "niveau-grotesk", sans-serif;
+font-weight:normal;
+font-size: 1rem;
+line-height: 2;
+margin-bottom: 10px
+}
+
+h5{ /* button text */
+font-family: "niveau-grotesk", sans-serif;
+font-weight: bold;
+font-size: 1.2rem;
+letter-spacing: 5%;
+margin: 0;
+}
+
+p{ /* body text */
+font-family: "niveau-grotesk", sans-serif;
+font-weight: light;
+font-size: .9rem;
+}
+
+.stripes{
+    fill: #F9D85E;
+}
+
+footer{
+    background-color: #292929;
+    color: #ffffff;
+}
+
+.btn-sub{
+    background-color: #4169A0;
+    color: #ffffff;
+}
+
+.btn-sub:hover{
+    filter: saturate(150%); /* change to 100% to remove hover effect */
+    background-color: #4169A0;
+    color: #ffffff; 
+}
+
+   
+
+    .images{
+        text-align: center;
+        margin: 80px 0;
+        white-space: nowrap;
+    }
+    
+    .images li{
+        display: inline-block;
+        width: 40%;
+        margin: 20px 5%;
+    }
+    
+    .images li img{
+        max-width: 100%;
+    }
+
+    .banner-container {
+        position: relative;
+        text-align: left;
+        color: white;
+    }
+
+    .headline-one {
+        font-size: 20px; 
+      
+    }
+
+    .headline-two {
+        font-size: 70px; 
+       
+    }
+
+    .headline-three {
+        font-size: 44px; 
+      
+    }
+
+    .banner-container {
+        position: absolute;
+        left: 0;
+        top: 30%;
+        padding: 30px;
+    }
+
+    
+        
+    
+    
+    p{
+        font-size: 20px;
+        padding-right: 30px;
+    }
+
+    .blockquote-footer{
+        font-size: 18px;
+    }
+
+    .rowstripes {
+        background-image: url(IMG/threestripes.svg);
+    }
+
+    .btn-booktour{
+        background-color: #EF4269;
+        color: #ffffff;
+    }
+    
+    .btn-booktour:hover{
+        filter: saturate(200%); /* change to 100% to remove hover effect */
+        background-color: #EF4269;
+        color: #ffffff; 
+    }
+
+    .silverbackground {
+        background-color: #CACACA;
+    
+    font-size: .9rem;
+    }
