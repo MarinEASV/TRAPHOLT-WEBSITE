@@ -150,3 +150,7 @@ footer{
     
     font-size: .9rem;
     }
+
+    .rowstripesblue {
+        background-image: url(IMG/bluestripes.svg);
+    }
