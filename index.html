@@ -7,12 +7,42 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.typekit.net/vnr4dbk.css">
+
+  <style>
+     .hero-section {
+      position: relative;
+      height: 100vh;
+      color: #fff;
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      
+    }
+
+    .hero-content {
+      z-index: 1;
+    }
+
+    .hero-image {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100vh;
+      object-fit: cover;
+      object-position: right; /* Start visible area from the right side */
+      z-index: 0;
+    }
+
+  </style>
+
 </head>
 
 <body>
     
   <!-- NAVBAR -->
-  <nav class="navbar  fixed-top navbar-expand-lg navbar-dark p-md-3">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
     <div class="container">
       <a class="d-flex justify-content-center" href="#"><img src="img/trapholt-logo.svg" alt=""></a>
       <button
@@ -62,40 +92,30 @@
 
     
     <!-- Banner Image  -->
-    <div
-      class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center">
-     
-        <div class="banner-container">
-          <div class="headline-one text-light">Taking Design to New Heights</div>
-          <div class="headline-two text-light">NANNA DITZEL</div>
-          <div class="headline-three text-light">28.09.2023 - 11.08.2024</div>
-           <br> <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
-            BOOK TOUR
-          </button>
-        </div>
-        
-      
+    <div class="hero-section">
+      <img src="IMG/banner nanna.jpeg" alt="Background Image" class="hero-image">
+      <div class="container hero-content">
+        <h3>Taking Design to New Heights</h3>
+        <h1 style="line-height: 5rem; margin-top: 5px; font-size: 4rem;">NANNA DITZEL</h1>
+        <h2 style="font-size: 2.6rem;">28.09.2023 - 11.08.2024</h2><br>
+        <button type="submit" class="btn btn-booktour d-flex align-items-center" style="border-radius: 0; height: 45px; width: 200px; justify-content: center; margin-bottom: 50px;" onclick="window.location.href='guided_tours.html';">
+          <h5 style="margin: 0;">BOOK TOUR</h5>
+        </button>
+              </div>
+      </div>
     </div>
 
-    <style>
-        .banner-image {
-          background: url(img/banner\ nanna.jpeg) no-repeat center 45% ;
-  
-          background-size: cover;
-          height: 100%;
-        }
-    </style>
 
 <!-- 100TH ANNIVERSARY -->
-<div class="container-anniversary" id="about">
+<div class="container" id="about">
   <div class="row">
-      <div class="col-md-6 d-flex justify-content-end ">
+      <div class="col-md-6 d-flex justify-content-center" style="align-items: center;">
           <img src="img/nanna_ditzel-removedbg.png" alt="Image" class="img-fluid">
       </div>
 
-      <div class="col-md-6 justify-content-center text-center "data-aos="fade-right">
+      <div class="col-md-6 justify-content-center text-center" data-aos="fade-right">
             
-        <h1 class="text-danger p-md-6 ">100TH ANNIVERSARY</h1>
+        <h1 class="text-danger" style="padding-top: 150px; padding-bottom: 30px; line-height: normal;">100TH ANNIVERSARY</h1>
         
         <figure class="text-center">
           <blockquote class="blockquote">
@@ -111,11 +131,40 @@
   </div>
 
   <!-- IMAGES -->
-  <ul class="images">
-    <li><img src="img/hero_img_3.jpg" alt="image one"></li>
-    <li><img src="img/Screenshot 2023-12-02 at 18.44.05.png" alt="image two"></li>
-  </ul>
       
+  <div class="container mt-5">
+    <div class="row">
+      <!-- Left Side with Image (6 columns) -->
+      <div class="col-md-6">
+        <img src="IMG/hero_img_3.jpg" alt="Left Side Image" class="img-fluid">
+      </div>
+  
+      <div class="col-md-1"></div>
+
+      <!-- Right Side with SVG (3 columns) -->
+      <div class="col-md-5 d-flex align-items-end" style="justify-content: right;">
+        <svg width="100%" height="100%" viewBox="0 0 466 320" fill="none" xmlns="http://www.w3.org/2000/svg" style="box-sizing: border-box;">
+          <rect y="0.000366211" width="19.581" height="602" fill="#EF4269"/>
+          <rect x="34.2664" y="0.000366211" width="19.581" height="602" fill="#EF4269"/>
+          <rect x="68.5333" y="0.00012207" width="19.581" height="602" fill="#EF4269"/>
+          <rect x="102.799" y="0.000244141" width="19.581" height="602" fill="#EF4269"/>
+          <rect x="171.334" y="0.000244141" width="19.581" height="602" fill="#EF4269"/>
+          <rect x="137.067" y="0.000366211" width="19.581" height="602" fill="#EF4269"/>
+          <rect x="239.866" width="19.581" height="602" fill="#EF4269"/>
+          <rect x="205.601" y="0.000366211" width="19.581" height="602" fill="#EF4269"/>
+          <rect x="308.401" y="0.00012207" width="19.581" height="602" fill="#EF4269"/>
+          <rect x="342.667" y="0.000244141" width="19.581" height="602" fill="#EF4269"/>
+          <rect x="376.934" y="0.000244141" width="19.581" height="602" fill="#EF4269"/>
+          <rect x="411.201" width="19.581" height="602" fill="#EF4269"/>
+          <rect x="445.468" y="0.00012207" width="19.581" height="602" fill="#EF4269"/>
+          <rect x="274.134" y="0.000366211" width="19.581" height="602" fill="#EF4269"/>
+          </svg>
+        </svg>
+      </div>
+    </div>
+  </div>
+  
+
       
     <!-- FOOTER -->   
     <footer class="d-flex align-items-center" style="padding-top: 60px; margin: 70px 0 0 0;">
@@ -136,7 +185,7 @@
             <h4>+45 76 30 05 30</h4>
             
             <h3>SOCIALS</h3>
-             <a href="https://www.facebook.com/profile.php?id=61553804323780"><h4>Facebook</h4></a>
+             <a href="https://www.facebook.com/profile.php?id=61553804323780" style="text-decoration: none; color: inherit;"><h4>Facebook</h4></a>
 
           </div>
     
