@@ -125,7 +125,7 @@ footer{
     }
 
     .rowstripes {
-        background-image: url(IMG/threestripes.svg);
+        background-image: url(IMG/pinkstripes.svg);
     }
 
     .btn-booktour{
@@ -143,4 +143,8 @@ footer{
         background-color: #CACACA;
     
     font-size: .9rem;
+    }
+
+    .rowstripesblue {
+        background-image: url(IMG/bluestripes.svg);
     }
