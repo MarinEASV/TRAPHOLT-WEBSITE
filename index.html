@@ -7,12 +7,13 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.typekit.net/vnr4dbk.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
     
   <!-- NAVBAR -->
-  <nav class="navbar  fixed-top navbar-expand-lg navbar-dark p-md-3">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
     <div class="container">
       <a class="d-flex justify-content-center" href="#"><img src="img/trapholt-logo.svg" alt=""></a>
       <button
@@ -53,9 +54,9 @@
 
    window.addEventListener('scroll', function () {
    if (window.pageYOffset >155) {
-   nav.classList.add('bg-black', 'shadow');
+   nav.classList.add('bg-dark', 'shadow');
    } else {
-   nav.classList.remove('bg-black', 'shadow');
+   nav.classList.remove('bg-dark', 'shadow');
    }
    });
   </script> 
@@ -87,7 +88,7 @@
     </style>
 
 <!-- 100TH ANNIVERSARY -->
-<div class="container-anniversary" id="about">
+<div class="container-anniversary" data-aos="fade-right" data-aos-duration="1000">
   <div class="row">
       <div class="col-md-6 d-flex justify-content-end ">
           <img src="img/nanna_ditzel-removedbg.png" alt="Image" class="img-fluid">
@@ -112,9 +113,16 @@
 
   <!-- IMAGES -->
   <ul class="images">
+    
+    <div class="image-one" data-aos="fade-right" data-aos-duration="1000">
     <li><img src="img/hero_img_3.jpg" alt="image one"></li>
-    <li><img src="img/Screenshot 2023-12-02 at 18.44.05.png" alt="image two"></li>
-  </ul>
+  </div>
+  
+  <div class="image-two" data-aos="fade-left" data-aos-duration="1000"> 
+  <li><img src="img/Screenshot 2023-12-02 at 18.44.05.png" alt="image two"></li>
+  </div>  
+
+</ul>
       
       
     <!-- FOOTER -->   
@@ -160,11 +168,11 @@
     </footer>
     
       
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
