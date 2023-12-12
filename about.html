@@ -3,20 +3,60 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>ABOUT</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" href="img/Group 37.svg" type="">
+
 </head>
 <body>
 
+    <!-- NAVBAR -->
+   <nav class="navbar position-sticky property-top fixed-top navbar-expand-lg navbar-dark p-md-3" style="background-color: #292929; z-index: 10s;">
+    <div class="container">
+      <a class="d-flex justify-content-center" href="index.html"><img src="img/trapholt-logo.svg" alt=""></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="mx-auto justify-content-center"></div>
+        <ul class="navbar-nav"> 
+          <li class="nav-item">
+            <a class="nav-link text-danger" href="about.html">ABOUT MUSEUM</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="guided_tours.html">GUIDED TOURS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="exhibitions.html">EXHIBITIONS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="contact.html">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  
   <main>
     
-    <div class="container">
+    <div class="container" data-aos="fade-right" data-aos-duration="1500">
 
         <div class="row d-flex" style="margin: 30px 30px 0;">
             
             <div class="col-12 col-md-6 p-0">
-                <h1>TRAPHOLT</h1>
+                <h1 style="color: #4169A0;">TRAPHOLT</h1>
                 <h2 class="mb-5">MUSEUM OF MODERN 
                     <br>
                     ART, CRAFT AND DESIGN.
@@ -56,12 +96,12 @@
     </div>
 
     <div class="section silverbackground">
-        <div class="container">
+        <div class="container" data-aos="fade-right" data-aos-duration="1500">
                 
             <div class="row d-flex  silverbackground" style="padding: 100px 0 100px 0;">
 
                 <div class="col-12 col-md-6 px-lg-5">
-                    <h2>ABOUT TRAPHOLT</h2>
+                    <h2 style="color: #4169A0;">ABOUT TRAPHOLT</h2>
                     <p>Trapholt presents a steady succession of exhibitions on art, design and crafts and also boasts its own collections, including a large collection of Danish furniture design.</p>                        
                     <p>Inaugurated in 1988, the museum is located in a scenic area overlooking the Kolding Fjord. It is set within a large sculpture park featuring works by contemporary Danish artists.</p>                       
                     <p>The museum’s architecture is an attraction in itself. Arranged around a central museum street, the exhibition rooms offer many fascinating spaces to explore. Outside, a powerfully sculptural wall separates the museum from the park.</p>
@@ -69,13 +109,13 @@
                 </div>
 
                 <div class="col-12 col-md-6 px-lg-5">
-                    <h3 class="mt-3">Arne Jacobsen’s summerhouse</h3>
+                    <h3 class="mt-3" style="color: #4169A0;">ARNE JACOBSEN’S SUMMERHOUSE</h3>
                     <p>Arne Jacobsen’s modular house, Kubeflex, allows all those with interest in design and architecture to explore an immersive environment designed entirely by Jacobsen. Created by the internationally renowned Danish architect and designer in 1969–70, the house is the only one of its kind. Previously used as a summerhouse by the Jacobsen family, the house is now on display at Trapholt, furnished with Arne Jacobsen’s own designs. We offer daily guided tours of the house.</p>
-                    <h3>Richard Mortensen</h3>
+                    <h3 style="color: #4169A0;">RICHARD MORTENSEN’S</h3>
                     <p>A special room dedicated to Richard Mortensen’s paintings was created in close collaboration with the artist himself – one of the most important Danish artists of the twentieth century.</p>
-                    <h3>Ask the guides</h3>
+                    <h3 style="color: #4169A0;">ASK THE GUIDES</h3>
                     <p>Trapholt’s guides are happy to welcome all guests and help you plan your visit. We always offer a wide range of activities for children and adults alike.</p>
-                    <h3>Trapholt café & Design shop</h3>
+                    <h3 style="color: #4169A0;">TRAPHOLT CAFÉ & DESIGN SHOP</h3>
                     <p>Visit the Trapholt café to enjoy spectacular views of Kolding Fjord, a delicious meal – or just a cup of coffee. The Trapholt design shop carries a wide range of specially selected interior design objects from well-known Danish and international brands. Everything has been handpicked for its distinctive aesthetics and quality, offering unique choice. Free parking for cars and buses is available right by the door. Accessibility, including wheelchair access, is a major focus for Trapholt.</p>
                 </div>
                 
@@ -96,7 +136,7 @@
     </div>
 
       
-    <div class="container">
+    <div class="container" data-aos="fade-up" data-aos-duration="1500">
 
         <div class="row mt-3 p-0 g-0" style="margin: 100px 0 100px 0;">
              
@@ -144,6 +184,7 @@
 
   </main>
 
+  <!-- FOOTER -->
     <footer class="d-flex align-items-center" style="padding-top: 60px; margin: 70px 0 0 0;">
         <div class="container">
           <div class="row">
@@ -162,7 +203,7 @@
               <h4>+45 76 30 05 30</h4>
               
               <h3>SOCIALS</h3>
-              <h4>Facebook</h4>
+              <a href="https://www.facebook.com/profile.php?id=61553804323780" style="text-decoration: underline; color: inherit;"><h4>Facebook</h4></a>
             </div>
       
             <!-- Column 3 -->
@@ -186,6 +227,12 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+   
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
 </body>
  
 </html>
