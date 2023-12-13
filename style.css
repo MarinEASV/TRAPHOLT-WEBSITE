@@ -134,3 +134,11 @@ footer{
     .rowstripesblue {
         background-image: url(IMG/bluestripes.svg);
     }
+
+    .navbar-text{
+        color: #ffffff;
+    }
+
+    .navbar-text:hover{
+        color: #CACACA;
+    }
